@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Formatações adicionais</title>
+    <style>
+    
+        mark {
+            background-color:rgb(157, 216, 157);
+        }
+
+    
+    </style><!--Neste caso foi alterada a cor de fundo da marcação de todas as tags "mark" da página, com a excessão daquela que possuí uma alteração interna para um tom de azul-->
+</head>
+<body>
+    <h1>&Rightarrow; Outras Formatações &Leftarrow;</h1>
+
+    <p>
+        continuando a testar formatações.
+    </p>
+
+        <h2>&rightarrow; Texto marcado</h2>
+
+            <p>
+                É possível <mark>marcar textos</mark> utilizando a tag &lt;mark&gt;, valendo ressaltar o fato de esta ser uma tag de significado.
+            </p>
+
+                <!--Neste primeiro caso a cor da marcação permanece no amarelo padrão. Para alterar é necessário utilizar as CSSs.-->
+
+            <p>
+                Segundo exemplo de <mark>marcação de de texto</mark>, desta vez, um<mark style="background-color: rgba(0, 0, 255, 0.205);"> texto marcado com uma cor distinta da padrão.</mark> 
+                
+                <!--Neste caso, "style" é um parâmetro da tag "mark". Como este caso a alteração da cor do fundo da marcação foi pontual, a forma de alteração indo direto na tag é mais recomendada.-->
+
+            </p>
+              
+        <h2>&rightarrow; Texto grande e pequeno</h2>
+
+            <p>
+                Estamos criando um exemplo de <big>texto grande </big>e um exemplo de <small>texto pequeno </small>neste parágrafo.  
+                
+                <!--A tag "big" está sendo considerada obsoleta, portanto, é aconselhavél não utiliza-la.-->
+
+            </p>
+         
+        <h2>&rightarrow; Texto deletado</h2>
+            <p>
+                Podemos marcar<del> um texto como excluído</del> para indicar que ele deve ser lido, mas não considerado.
+                
+                <!--É basicamente formatar um texto como riscado, mas neste caso possuí o sentido semântico citado acima-->
+            </p>
+
+        <h2>&rightarrow; Texto inserido</h2>
+            
+            <p>
+                Podemos marcar um <ins>texto como inserido</ins> para dar uma ênfase e indicar que ele foi adicionado depois.
+
+                <!--Tal qual o exemplo anterior, neste caso o sublinhado possuí um sentido semântico de inclusão.-->
+
+            </p>
+
+            <p>
+                Támbem é possível adquirir <s>um texto riscado</s> e um <u>texto sublinhado</u> utilizando, respectivamente, as tags &lt;s&gt; e &lt;u&gt;, entretanto, estas são tags não semânticas.
+            </p>
+
+        <h2>&rightarrow; Texto sobrescrito</h2>
+            
+            <p>
+                Recomendado para utilizar em situações de textos "altos", como expoentes, por exemplo: 25x10<sup>7</sup>+x<sup>56</sup>.
+
+            </p>
+
+        <h2>&rightarrow; Texto subscrito</h2>
+
+            <p>
+                Recomendado para casos de textos "baixos", como índices, por exemplo: NH<sub>4</sub>OH ou H<sub>2</sub>O.
+            </p>
+
+    
+</body>
+</html>

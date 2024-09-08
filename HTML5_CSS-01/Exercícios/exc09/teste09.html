@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Citações e códigos &hellip; </title>
+    <style>
+        mark {
+            background-color: aquamarine;
+        }
+
+        
+
+    </style>
+    
+</head>
+<body>
+    <h1>&lt; Outras formatações &gt;</h1>
+
+        <h2>&Rightarrow; Código-fonte / Pré-formatado &Leftarrow;</h2>
+
+            <p>
+                O comando <mark>document.getElementById("teste")</mark> é escrito em linguagem JavaScript.
+
+                <!--Neste exemplo o comando citado não está com o mesmo espaçamento lateral para cada caractér, deixando assim a leitura um tanto confusa.-->
+
+            </p>
+
+            <p>
+                O comando <mark><code>document.getElementById("teste")</code></mark> é escrito em linguagem JavaScript. 
+
+                <!--Neste segundo caso, o comando citado está com a formtação de código, deixando com letras monoespaçadas, facilitando a leitura-->
+
+
+            </p>
+
+            <code>
+
+                <mark>
+                    num = int(input("Digite um número"))
+                    if num % 2 == 0:
+                        print(f"O número {num} é PAR")
+                    else:
+                        print(f"O número {num} é ÌMPAR")
+                    print("Fim do programa")
+                </mark>
+
+                <!--Neste caso, apesar da formatação monoespaçada, a identação foi perdida, deixando a exibição do código confusa-->
+
+            </code>
+<pre>
+    
+                <code>
+    
+    <mark>
+        num = int(input("Digite um número"))
+        if num % 2 == 0:
+            print(f"O número {num} é PAR")
+        else:
+            print(f"O número {num} é ÌMPAR")
+        print("Fim do programa")
+</mark>
+
+                </code>
+</pre>
+    <!--Neste segundo caso, utilizando a tag <pre>, a tabulação foi mantida, exibindo a mensagem de forma identada, deixando-a mais parecida com um código real.-->
+
+                    <!--A tag <pre> faz com que a formatação feita aqui pelo editor seja mantida na exibição-->
+        <h2>&Rightarrow; Citações simples &Leftarrow;</h2>
+
+            <p>
+                Como diria o pai do amigo de um conhecido: <q>o computador é um burro muito rápido.</q>
+
+                <!--A tag <q> não apenas formata o trecho com as aspas, mas lhe dá o sentido de citação, sendo que neste caso é uma citação simples por não possuir a quebra de linha.-->
+            </p>
+
+        <h2>&Rightarrow; Citações completas &Leftarrow;</h2>
+
+        <p>
+            Segundo Carl Sagan, em seu livro <em>Cosmos</em>:
+
+        </p>
+
+            <blockquote cite=https://www.google.com.br/books/edition/Cosmos/1ns2DwAAQBAJ?hl=pt-BR&gbpv=1&dq=cosmos+carl+sagan&printsec=frontcover>Nossos antepassados estavam ansiosos por compreeder o mundo, mas ainda não conseguiam encontrar um método. Imaginavam um universo pequeno, singula, arrumado, no qual as forças dominantes erema deuses, como Anu, Ea e Samas. Nesse universo os seres humanos desempenhavam um papel importante, senão central. Estamos intimamente ligados ao resto da natureza. O tratamento da dor de dente com cerveja de segunda tinha a ver com os mais profundos mistérios cósmicos.</blockquote>
+
+        <!--A citação do link serve para que os códigos compreendam qual o referente daquela citação, não há qualquer mudança visual ou interativa no site em sí-->
+
+        <h2>&Rightarrow; Abreviações &Leftarrow;</h2>
+
+            <p>
+                Que isso lek, vou virar desenvolvedor de site com <abbr title="HyperText Markup Language"><mark>HTML5</mark></abbr> e <abbr title="Cascading Style Sheets"><mark>CSS3</mark></abbr>, confia.
+
+                <!--A tag <abbr> cria uma explicação do que significa uma determinada sigla ou abreviação.-->
+            </p>
+        <h2>&Rightarrow; Texto Invertido &Leftarrow;</h2>
+
+            <p>
+                <bdo dir="rtl">Já imagino que essa merda não vai servir pra nada.</bdo>
+            </p>
+
+    
+</body>
+</html>

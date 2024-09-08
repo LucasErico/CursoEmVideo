@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Midias</title>
+
+</head>
+<body>
+    <h1>Teste de imagens dinâmicas</h1>
+        <p>Tente abrir este site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+        <picture>
+            <source media="(max-width: 750px )" srcset="imagens/foto-p.png" type="image/png">
+            <source media="(max-width: 1050px )" srcset="imagens/foto-m.png" type="image/png">
+            <img src="imagens/foto-g.png" alt="Foto grande">
+            
+        </picture>
+    <h1>Reproduzindo Áudios</h1>
+        <p>Teste de reprodução de áudios em HTML5</p>
+        <audio src="midia/ersatzbossa.mp3" controls autoplay></audio>
+        <p>Primeira maneira é extremamente limitada</p>
+        <audio preload="metadata" controls loop>
+            <source src="midia/bluesyvibes.mp3" type="audio/mpeg">
+
+        </audio>
+    <h1>Vídeos com HTML5</h1>
+        <p>Inserindo vídeos hospedados localmente, ou seja, no meu próprio servidor</p>
+        <video src="midia/pexels01.mp4" width="500" controls loop></video>
+        <video src="midia/Pexels01-1.webm" width="500" controls loop></video>
+        <p>Primeiro método, simples e um tanto limitado</p>
+        <p>Testando através do segundo método</p>
+        <video controls width="500" preload="metadata" poster="midia/prussiaflagrdm.jpg" >
+            <source src="midia/pexels01.mp4" type="video/mp4">
+            <source src="midia/Pexels01-1.webm" type="video/webm">
+            <p>seu navegador não tem compatibilidade</p>
+
+
+        </video>
+        <p>Inserindo vídeos do youtuber</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/jPXY53BV4Sk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+    
+</body>
+</html>
