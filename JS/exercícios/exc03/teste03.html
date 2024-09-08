@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../midiascomuns/favicon.ico" type="image/x-icon">
+    <title>Operadores I</title>
+    <link rel="stylesheet" href="../CSSs/index.css">
+</head>
+<body>
+    <h1>Operadores do <abbr title="JavaScript">JS</abbr></h1>
+        <h2>Parte 1:</h2>
+        <h3>Principais famílias de operadores em <abbr title="JavaScript">JS</abbr>:</h3>
+        <ul>
+            <li>Aritméticos</li>
+            <li>Atribuição</li>
+            <li>Relacionais</li>
+            <li>Lógicos</li>
+            <li>Ternário</li>
+        </ul>
+        
+            <h3><strong>Aritméticos:</strong></h3>
+            <ul>
+                <li><abbr title="Soma">[+]</abbr>: 2 + 3 = 5;</li>
+                <li><abbr title="Subtração">[-]</abbr>: 7 - 4 = 3;</li>
+                <li><abbr title="Multiplicação">[*]</abbr>: 3 * 4 = 12;</li>
+                <li><abbr title="Divisão">[/]</abbr>: 18 / 9 = 2;</li>
+                <li><abbr title="Resto">[%]</abbr>: 5 % 2 = 1;</li>
+                <li><abbr title="Potenciação">[**]</abbr>: 3 ** 2 = 9;</li> <script>
+            var n = 5
+            var m = 2
+            var soma = n+m
+            var sub = n-m
+            var mult = n*m
+            var div = n/m
+            var rest = n%m
+            var pot = n**m
+            var med = (n+m)/2
+            document.write(`<p>A soma dos valores é ${soma}</p>`)
+            document.write(`<p>A subtração dos valores é ${sub}</p>`)
+            document.write(`<p>A multiplicação dos valores é ${mult}</p>`)
+            document.write(`<p>A divisão dos valores é ${div}</p>`)
+            document.write(`<p>O resto da divisão dos valores é ${rest}</p>`)
+            document.write(`<p>O primeiro valor elevado ao segundo é ${pot}</p>`)
+            document.write(`<p>A média simples entre os dois valores é ${med}</p>`)
+            
+            
+        </script>
+            </ul>
+            <h3><strong>Atribuição:</strong></h3>
+        <p>Operadores para atribuir valores a uma variável, sendo os principais "=" para atribuição simples ou atribuição com operação, exemplo: +=, -=, *=. Também a o de incremento "++" e decremento "--".</p>
+            
+        
+        <h2>Parte 2:</h2>
+       <h3><strong>Relacionais:</strong></h3>
+            <ul>
+                <li>">" Maior</li>
+                <li>"<" Menor</li>
+                <li>">=" Maior ou igual</li>
+                <li>"<=" Menor ou igual</li>
+                <li>"==" Igual</li>
+                <li>"!=" Diferente</li>
+            </ul>
+            <h3><strong>Lógicos:</strong></h3>
+                <ul>
+                    <li>"!" Negação</li>
+                    <li>"&&" Conjunção, uma espécie de "e" lógico</li>
+                    <li>"||" Disjunção, uma espécie de "ou" lógico</li>
+                </ul>
+
+            <p>Ordem de execução: primeiiro o "!", depois o "&&", por fim o "||".</p>
+
+            <h3><strong>Ternário:</strong></h3>
+                <p>Possuí os símbolos "?" e ":", qual compõem uma expressão de três blocos na seguinte estrutura: <em>Teste lógico</em> <abbr title="Parte do operador ternário">?</abbr> <em>True</em> <abbr title="Parte do operador ternário">:</abbr> <em>False</em></p>
+                <p>Exemplo: <code>Média >= 7.0 ? "Aprovado" : "Reprovado"</code></p>
+    
+</body>
+</html>

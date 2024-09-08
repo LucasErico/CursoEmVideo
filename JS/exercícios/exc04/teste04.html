@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../midiascomuns/favicon.ico" type="image/x-icon">
+    <title>DOM</title>
+    <link rel="stylesheet" href="../CSSs/index.css">
+</head>
+<body>
+    <h1>Introdução ao <abbr title="Document Object Model">DOM</abbr></h1>
+    <h2>Entendendo o <em>Document Object Model(DOM)</em></h2>
+    <p>teste de elementos</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero sequi deleniti, suscipit, eius beatae unde non similique iste amet pariatur maiores optio minima ullam rerum sapiente officiis consequuntur, modi at.</p>
+    <div id='msg'>Clique aqui</div>
+    <script>
+        var p1 = document.getElementsByTagName('p')[1]
+        var d = window.document.querySelector('div#msg')
+        d.style.color = 'red'
+    </script>
+    
+</body>
+</html>

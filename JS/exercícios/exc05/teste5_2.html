@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../midiascomuns/favicon.ico" type="image/x-icon">
+    <title>Testes</title>
+    <link rel="stylesheet" href="../CSSs/index.css">
+    <style>
+        input{
+            margin-top: 10pt;
+            width: 200pt;
+        }
+        input#confirmar{
+            width: 60pt;
+        }
+    </style>
+</head>
+<body>
+    <h1>Operadores e DOM Events</h1>
+    <p>Testando a utilização de operadores eventos <abbr title="Document Object Model">DOM</abbr> e outras funcionalidades</p>
+    <div>Nome: <input type="number" id = "caixa1" name="caixa1"><input type="button" value="Confirmar" onclick="confirmar()" id = "confirmar"></div>
+    <div id = "boa">
+
+    </div>
+    <script>
+        function confirmar(){
+           var nome = window.document.getElementById('caixa1')
+           var boa = window.document.getElementById('boa')
+            boa.innerHTML=nome
+        }
+        
+
+
+    </script>
+    
+    
+    
+</body>
+</html>

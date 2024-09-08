@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../midiascomuns/favicon.ico" type="image/x-icon">
+    <title>Tratando dados</title>
+    <link rel="stylesheet" href="../CSSs/index.css">
+</head>
+<body>
+    <h1>Utilizando textos</h1>
+        <p>Tratamento de textos usando o comando <code>window.prompt</code>, inserindo o texto digitado em uma <em>variável</em> para tratá-lo posteriormente</p>
+
+        <ul>
+            <li><code>s.length</code> > diz quantos caracteres uma string tem</li>
+            <li><code>s.toUpperCase()</code> > deixa a string toda maiúscula</li>
+            <li><code>s.toLowerCase()</code> > deixa a string toda minúscula</li>
+        </ul>
+
+
+    <hr>
+    <a href="teste02.html" rel="prev" target="_self">Dados e variáveis</a>
+
+    <script>
+        var nome = window.prompt("Qual seu nome?")//Aquilo que for digitado no prompt será jogado para dentro da variável "nome"
+        alert("É um grande prazer recebe-lo, " + nome) // o sinal de soma tem  a função de concatenação
+        var n1 = Number(window.prompt("Digite um número"))
+        var n2 = Number(window.prompt("Digite outro número")) // ambos os prompts retornaram os valores no tipo string
+        var s = n1 + n2
+        window.alert("A soma dos valores é " + s) // o sinal "+" serve tanto para concatenação quanto para adição sendo que: (number + number)= soma | (string + string)= concatenação.
+        // Por isso o alert concatenou os valores vindos do prompt, porque estavam em tipo string e não number, sendo necessário converter os tipos.
+        /*
+        As formas de fazer tal converção são:
+
+        atráves de Number.parseInt(n), ou apenas parseInt(n), que irá converter de um número para um número inteiro.
+
+        através de NumberparseFloat(n), que serve para converter para um número real
+
+        através de Number(n), com a própria linguagem detectando qual o tipo de número 
+
+        através de String(n), que irá converter o valor entre parenteses em uma string
+
+        através de n.toString(), ok, essa eu não entendi
+         */
+        var nome = prompt("Qual seu nome man?")
+        var ano1 = Number(prompt("Nasceste quando?"))
+        var ano2 = Number(prompt("Em que ano a gente tá?"))
+        var idade = ano2 - ano1
+        alert(`Então, ${nome}, tu tem ${idade} anos man.`)// é mais simples do que utilizando concatenação, neste caso
+        var texto = prompt("Lança uma braba ai!")
+        document.writeln(`<h2>Essa merda tem ${texto.length} letras. </h2>`)
+        document.write(`<h2>Essa bosta em maiúsculo fica: ${texto.toUpperCase()} </h2>`)
+        document.write(`<h2>Essa mesma bosta, só que em minúsculo fica: ${texto.toLowerCase()}</h2> `)
+
+    </script>
+    
+</body>
+</html>
