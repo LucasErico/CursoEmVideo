@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+body{
+    background-color: #BFA38A;
+    text-align: center;
+
+
+}
+
+strong{
+    text-align: left;
+    color: #404040;
+    font-size: 20px;
+   text-decoration: underline;
+}
+
+h1{
+    text-align: left;
+    color: #404040;
+    font-size: 70px;
+}
+
+h2{
+    color: #A64138;
+    font-size: 50px;
+}
+
+h3{
+    color: #8C6E54;
+    font-size: 40px;
+}
+

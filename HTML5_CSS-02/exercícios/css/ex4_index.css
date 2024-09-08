@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
+
+@font-face {
+    font-family: 'Tf' ;
+    src: url('../mídias/Transformers\ Movie.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Cyber' ;
+    src: url('../mídias/Cybertronianfinal-Regular.ttf') format('truetype');
+}
+
+
+
+*{
+    height: 100%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body{
+    background-image: linear-gradient(to bottom, #04BF8A, #03A64A, #025940 );
+    background-attachment: fixed;
+    
+}
+
+main{
+    background-color: white;
+    height: auto;
+    width: 400px;
+    padding: 10px ;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px  rgba(2, 89, 64, 0.548) ;
+    
+
+    
+}
+
+h1{
+    /*font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;*/
+    font: italic bold 40px 'Tf', Times, serif; /*Shorthand*/
+    text-align: left;
+    color: #026873;
+    text-shadow: 1px 1px 2px rgba(2, 104, 115, 0.568);
+}
+
+h2{
+    font-family: 'Cyber', Times, serif;
+    font-size: 30px;
+    text-align: center;
+    color: #024059;
+    text-shadow: 1px 1px 2px rgba(2, 64, 89, 0.568);
+   
+}
+
+h3{
+    font: italic bold 25px 'Quintessential', cursive;
+    color: #026873;
+}
+
+p{
+    font-family: 'Redressed', cursive;
+    font-size: 25px;
+    text-align: center;
+}

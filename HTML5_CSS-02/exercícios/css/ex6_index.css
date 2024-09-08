@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+*{
+    height: 100%;
+}
+
+body{
+background-color: rgba(127, 255, 212, 0.144);
+font-family: Arial, Helvetica, sans-serif;
+background-attachment: fixed;
+}
+
+main{
+    background-color: white;
+    width: 500px;
+    border-radius: 10px;
+    height: auto;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 1px 1px 5px rgba(47, 95, 79, 0.144);;
+}
+
+h1{
+    color: rgb(3, 129, 129);
+    font-size: 50px;
+}
+
+h1#principal{
+    text-align: center;
+    font-weight: 900;
+    font-size: 60px;
+    background-color: rgba(240, 248, 255, 0.596);
+    background-position: right;
+    box-shadow: 1px 1px 2px rgba(202, 210, 216, 0.596);
+}
+
+.basico{/*Não está especificando o elemento, sendo assim, tudo da classe chamada "basico", seja um h2, h1, p, ficara com essas configurações*/
+    
+    color: rgb(81, 151, 128);
+    font-size: 25px;
+}
+
+.intermediario{
+    color: rgb(59, 110, 93);
+    font-size: 30px;
+}
+
+.avancado{
+     color: rgb(46, 87, 73);
+    font-size: 35px;
+}
+p{
+    text-align: justify;
+    text-indent: 50px;
+}
+
+.destaque{
+    font-style: italic;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+div{
+    display: inline-block;/*as divs ficarão na mesma linha*/
+    background-color: lightblue;
+    text-align: center;
+    height: 200px;
+    width: 150px;
+    border: 1px solid aqua ;
+}
+
+div#d1 > p{
+    display: none;
+}
+
+div#d2 > p{
+    display: none;
+}
+
+
+div#d1:hover > p{
+    display: block;
+    color: white;
+}
+
+div:hover{
+    background-color: black;
+    color: white;
+}
+

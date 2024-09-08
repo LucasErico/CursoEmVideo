@@ -1,0 +1,10 @@
+@charset "UTFD-8";
+
+*{/*seletor de configurações globais*/
+    height: 100%;
+}
+
+body{
+    background-image: linear-gradient(60deg, #D99E6A, #8C6E54, #A64138, #BF3F3F  );
+    background-attachment: fixed;
+}

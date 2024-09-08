@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,wght@0,400;0,600;1,400;1,600&display=swap');
+
+*{
+    font-family: 'Roboto Serif', sans-serif;
+ 
+}
+
+h1{
+    border:  20px solid black;
+    padding: 10px;
+    border-image-source: url('../mídias/borda.png');
+    border-image-slice: 29;
+    border-image-repeat: repeat;
+    
+}
